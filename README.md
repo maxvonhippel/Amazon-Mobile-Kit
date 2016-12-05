@@ -2,6 +2,8 @@
 
 I wanted to make a mobile app with procedurally generated affiliate links relating to user content (basically, my own, custom advertising).  Unfortunately, the Amazon Mobile SDK is **not** easy to work with.  So I made my own.
 
+**Note that this is not a secure implementation.** If you would like to learn why, go [here](http://stackoverflow.com/a/1732454/1586231).  I intend this to be a fun project people can use to learn about Amazon and make small personal projects, but if you need a secure solution that won't break when it hits some wierd product description full of emojis and {}s or something, this isn't it.  Enjoy <3
+
 Make an AmazonQuery like this:
 
 <pre><code>
